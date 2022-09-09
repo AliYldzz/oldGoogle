@@ -1,4 +1,4 @@
-*{
+*{ /*border sizing ile yapılan padding ve margin eklemelerinini ana tabloyu bozmasını engelledik*/
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -30,7 +30,6 @@ header{
     height: 23px;
 }
 .container1{
-    display: block;;
     background-color: #7EE5DA;
     text-align: center;
     width: 37%;
@@ -59,7 +58,7 @@ header{
     font-size: 13px;
 }
 
-.clear{
+.clear{ /*clear ile div den sonra yazılan kodların alt satırdan devam etmesini sağladık.*/
     clear: both;
 }
 .flooter{
